@@ -1,0 +1,30 @@
+{
+  "name": "ambiance-command-manager",
+  "id": "ambiance-command-manager",
+  "version": "0.0.1",
+  "description": "Command manager for ambiance editor",
+  "keywords": [ "manager", "ambiance", "commands", "plugin" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/ambiance-command-manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/ambiance-command-manager.git",
+    "web": "https://github.com/Gozala/ambiance-command-manager"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/ambiance-command-manager/issues/"
+  },
+  "devDependencies": {
+    "test": ">=0.4.4",
+    "repl-utils": ">=1.0.0"
+  },
+  "main": "./command-manager.js",
+  "scripts": {
+    "test": "node test/test-all.js",
+    "repl": "node node_modules/repl-utils"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "https://github.com/Gozala/ambiance-command-manager/License.md"
+  }]
+}
